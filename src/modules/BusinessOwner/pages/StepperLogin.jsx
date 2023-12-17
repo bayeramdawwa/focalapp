@@ -72,7 +72,7 @@ function StepperLogin() {
           }}>Next</button>
           : <>
             <button className='nb-buttons1' onClick={() => setActiveStep(activeStep - 1)}>Previous</button>
-            <Link to="/businessOwnerProfile" className='nb-buttons3'>Confirm</Link>
+            <Link to="/focalapp/businessOwnerProfile" className='nb-buttons3'>Confirm</Link>
           </>
         }
       </div>

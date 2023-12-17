@@ -29,7 +29,7 @@ function ManageJob() {
                             Add a post and manage it from here.
                         </p>
                     </div>
-                    <Link to="/AddJob"  className='Ah-add-job mx-auto mt-3 mb-3' >Add New Job</Link>
+                    <Link to="/focalapp/AddJob"  className='Ah-add-job mx-auto mt-3 mb-3' >Add New Job</Link>
                     <div className="mb-2">
                         <nav className='Ah-links d-flex justify-content-center gap-4 mb-3'>
                             <a href="#" className='Ah-active-link'>All Posts</a>

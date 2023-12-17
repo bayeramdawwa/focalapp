@@ -28,6 +28,7 @@ const NavJobSeekerLogin = () => {
           />
           <DropDown
             name="Jobs"
+            to1="/focalapp/businessOwnerProfile"
             option1="Search Jobs"
             option2="Matched Jobs"
             option3="Applied Jobs"
@@ -46,7 +47,7 @@ const NavJobSeekerLogin = () => {
           />
           <DropDown name="Internship" />
           <DropDown name="Ads" />
-          <NavLink className="RA-HER" >Hir Us</NavLink>
+          <NavLink  className="RA-HER" >Hir Us</NavLink>
         </Nav>
         <ButtonNotifcation icon={icon} pofile={"/focalapp/jopseekerprofile"}/>
         <ButtonLanguge />

@@ -61,7 +61,7 @@ const SideBar = () => {
                             setcolor_border_3()
                             setcolor_border_2()
                         }}
-                        to='/businessOwnerProfile/information' className='OS-link-Secondary py-2'>
+                        to='./information' className='OS-link-Secondary py-2'>
                         <span className={Class_1}>Infor</span>mation
                     </Link>
                     <Link
@@ -70,7 +70,7 @@ const SideBar = () => {
                             setcolor_border_1()
                             setcolor_border_3()
                         }}
-                        to='/businessOwnerProfile/posts' className='OS-link-Secondary py-2'>
+                        to='./posts' className='OS-link-Secondary py-2'>
                         <span className={Class_2}>Posted</span> Jobs
                     </Link>
                     <Link
@@ -79,7 +79,7 @@ const SideBar = () => {
                             setcolor_border_2()
                             setcolor_border_1()
                         }}
-                        to='/businessOwnerProfile/blogs' className='OS-link-Secondary py-2'>
+                        to='./blogs' className='OS-link-Secondary py-2'>
                         <span className={Class_3}>Blogs</span>
                     </Link>
                     <hr className='OS-line text-dark mt-3' />

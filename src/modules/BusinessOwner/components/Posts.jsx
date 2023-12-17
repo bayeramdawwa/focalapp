@@ -41,7 +41,7 @@ const Posts = () => {
                         Find a new employee to be part of your company.
                         Add a post and manage it from here.
                     </p>
-                    <Link to={'/Addjob'} className='OS-button-post mt-3'>Add New Job</Link>
+                    <Link to={'/focalapp/Addjob'} className='OS-button-post mt-3'>Add New Job</Link>
                 </div>
                 {/* <Section_Head
                      title="My Posts"

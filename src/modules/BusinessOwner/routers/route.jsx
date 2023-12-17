@@ -16,16 +16,16 @@ export const businessroutes = [
     element: <MyPage />,
     children: [
       {
-      path: "businessownerprofile/posts",
+      path: "posts",
       element: <Posts />,
     },
     {
-      path: "businessownerprofile/blogs",
+      path: "blogs",
       element: <Blogs />,
       
     },
     {
-      path: "businessownerprofile/information",
+      path: "information",
       element: <Information/>,
       
     },
