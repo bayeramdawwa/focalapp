@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/focalapp/static/css/main.13ea59e1.css",
+    "main.js": "/focalapp/static/js/main.07f2d405.js",
+    "static/media/Rectangle 138.svg": "/focalapp/static/media/Rectangle 138.5625a990619fc854d6a9a0dd74ab59f8.svg",
+    "static/media/Rectangle 139.svg": "/focalapp/static/media/Rectangle 139.c09bd1a82f98ca7efe6f47fea4a3a7ef.svg",
+    "static/media/background-login.png": "/focalapp/static/media/background-login.a4aa2db715692467fcee.png",
+    "static/media/bootstrap-icons.woff?": "/focalapp/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/background.png": "/focalapp/static/media/background.a53bceff3c1c0c4f222f.png",
+    "static/media/bootstrap-icons.woff2?": "/focalapp/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/img-login.png": "/focalapp/static/media/img-login.bda12527a6653152814a.png",
+    "static/media/ 1.png": "/focalapp/static/media/166448bb602550524d906cbdca70189c 1.b9b0532471483b54774b.png",
+    "static/media/bg.png": "/focalapp/static/media/bg.b9b0532471483b54774b.png",
+    "static/media/Rectangle 138.png": "/focalapp/static/media/Rectangle 138.f3253eedcb7881f12209.png",
+    "static/media/Rectangle 139.png": "/focalapp/static/media/Rectangle 139.641154adb0d8e65c8090.png",
+    "static/media/bk.jpg": "/focalapp/static/media/bk.b4f768c4c7980d7fb56f.jpg",
+    "static/media/taplinCompany.svg": "/focalapp/static/media/taplinCompany.3879b8d73fc03bb468c35745a47ad505.svg",
+    "static/media/png": "/focalapp/static/media/585e4ae1cb11b227491c3393.265a38582130035fe898.png",
+    "static/media/_109.jpg": "/focalapp/static/media/5913272340358218093_109.2f7160b7db93d2c65f4a.jpg",
+    "static/media/Ellipse 59.svg": "/focalapp/static/media/Ellipse 59.b72691eafab06cda7e80f5dda8ebf217.svg",
+    "static/media/Ellipse 58.svg": "/focalapp/static/media/Ellipse 58.ea724141272377cb2afe3868e8dd7c5b.svg",
+    "static/media/icon.jpg": "/focalapp/static/media/icon.ba0a0f3bf7e4b4344add.jpg",
+    "static/media/Layer 2.svg": "/focalapp/static/media/Layer 2.817a5946837d73d348415308e83fce87.svg",
+    "static/media/Group_1.svg": "/focalapp/static/media/Group_1.03fba516edd97bc3fda22f3f3195246d.svg",
+    "static/media/Vector (1).svg": "/focalapp/static/media/Vector (1).f9f095de337f9003f5d8ab26732ec0ce.svg",
+    "static/media/Vector_1.svg": "/focalapp/static/media/Vector_1.0d8c5e780676afd3b2d1f2f1da6e0046.svg",
+    "static/media/Vector.svg": "/focalapp/static/media/Vector.585c78bf44d760f9b711f2016d01d2b9.svg",
+    "static/media/Mask group.svg": "/focalapp/static/media/Mask group.7a09e8c0ea070e5c0d01688c1f4f6a68.svg",
+    "static/media/Vector (2).svg": "/focalapp/static/media/Vector (2).d412a8eaf9e626aa0ba89e8021284a6a.svg",
+    "index.html": "/focalapp/index.html",
+    "static/media/User-60.svg": "/focalapp/static/media/User-60.0a8aa75b9bdafce20c3bfb6cc9bcb894.svg",
+    "static/media/Ellipse41.svg": "/focalapp/static/media/Ellipse41.b01e8b8daff314f8de2a89a231dcbaa3.svg",
+    "main.13ea59e1.css.map": "/focalapp/static/css/main.13ea59e1.css.map",
+    "main.07f2d405.js.map": "/focalapp/static/js/main.07f2d405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ea59e1.css",
+    "static/js/main.07f2d405.js"
+  ]
+}
