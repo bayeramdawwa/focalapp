@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/focalapp/static/css/main.13ea59e1.css",
-    "main.js": "/focalapp/static/js/main.55b041ea.js",
+    "main.css": "/focalapp/static/css/main.e73dc05e.css",
+    "main.js": "/focalapp/static/js/main.8a09c25e.js",
     "static/media/Rectangle 138.svg": "/focalapp/static/media/Rectangle 138.5625a990619fc854d6a9a0dd74ab59f8.svg",
     "static/media/Rectangle 139.svg": "/focalapp/static/media/Rectangle 139.c09bd1a82f98ca7efe6f47fea4a3a7ef.svg",
     "static/media/background-login.png": "/focalapp/static/media/background-login.a4aa2db715692467fcee.png",
-    "static/media/bootstrap-icons.woff?": "/focalapp/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff?": "/focalapp/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/background.png": "/focalapp/static/media/background.a53bceff3c1c0c4f222f.png",
-    "static/media/bootstrap-icons.woff2?": "/focalapp/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/bootstrap-icons.woff2?": "/focalapp/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/img-login.png": "/focalapp/static/media/img-login.bda12527a6653152814a.png",
     "static/media/ 1.png": "/focalapp/static/media/166448bb602550524d906cbdca70189c 1.b9b0532471483b54774b.png",
     "static/media/bg.png": "/focalapp/static/media/bg.b9b0532471483b54774b.png",
@@ -30,11 +30,11 @@
     "index.html": "/focalapp/index.html",
     "static/media/User-60.svg": "/focalapp/static/media/User-60.0a8aa75b9bdafce20c3bfb6cc9bcb894.svg",
     "static/media/Ellipse41.svg": "/focalapp/static/media/Ellipse41.b01e8b8daff314f8de2a89a231dcbaa3.svg",
-    "main.13ea59e1.css.map": "/focalapp/static/css/main.13ea59e1.css.map",
-    "main.55b041ea.js.map": "/focalapp/static/js/main.55b041ea.js.map"
+    "main.e73dc05e.css.map": "/focalapp/static/css/main.e73dc05e.css.map",
+    "main.8a09c25e.js.map": "/focalapp/static/js/main.8a09c25e.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ea59e1.css",
-    "static/js/main.55b041ea.js"
+    "static/css/main.e73dc05e.css",
+    "static/js/main.8a09c25e.js"
   ]
 }
