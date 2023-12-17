@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/focalapp/static/css/main.13ea59e1.css",
-    "main.js": "/focalapp/static/js/main.07f2d405.js",
+    "main.js": "/focalapp/static/js/main.b4ac88ff.js",
     "static/media/Rectangle 138.svg": "/focalapp/static/media/Rectangle 138.5625a990619fc854d6a9a0dd74ab59f8.svg",
     "static/media/Rectangle 139.svg": "/focalapp/static/media/Rectangle 139.c09bd1a82f98ca7efe6f47fea4a3a7ef.svg",
     "static/media/background-login.png": "/focalapp/static/media/background-login.a4aa2db715692467fcee.png",
@@ -31,10 +31,10 @@
     "static/media/User-60.svg": "/focalapp/static/media/User-60.0a8aa75b9bdafce20c3bfb6cc9bcb894.svg",
     "static/media/Ellipse41.svg": "/focalapp/static/media/Ellipse41.b01e8b8daff314f8de2a89a231dcbaa3.svg",
     "main.13ea59e1.css.map": "/focalapp/static/css/main.13ea59e1.css.map",
-    "main.07f2d405.js.map": "/focalapp/static/js/main.07f2d405.js.map"
+    "main.b4ac88ff.js.map": "/focalapp/static/js/main.b4ac88ff.js.map"
   },
   "entrypoints": [
     "static/css/main.13ea59e1.css",
-    "static/js/main.07f2d405.js"
+    "static/js/main.b4ac88ff.js"
   ]
 }
