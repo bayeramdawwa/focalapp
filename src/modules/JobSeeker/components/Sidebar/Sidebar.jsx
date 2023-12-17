@@ -45,7 +45,7 @@ const Sidebar = () => {
         {/* ----------------------------------------- */}
         <div className="br-AsLinkss">
           <div className='br-Aslink1'>
-            <NavLink to ="/jopseekerprofile/information" className= {({ isActive, isPending }) =>
+            <NavLink to ="./information" className= {({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
           }>INFORMATION  </NavLink>
             {/* <a className='br-Aslink11'>INFORMATION  </a> */}
@@ -54,7 +54,7 @@ const Sidebar = () => {
           <div className='br-Aslink1'>
             
           <NavLink  id="br-Aslink10"
-           to="/jopseekerprofile/resum" 
+           to="./resum" 
             className= {({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
           }
@@ -74,7 +74,7 @@ const Sidebar = () => {
             
          
           <div className='br-Aslink1'>
-            <NavLink to ="/jopseekerprofile/blog" className={({ isActive, isPending }) =>
+            <NavLink to ="./blog" className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
           }>BLOGS   </NavLink>
          
@@ -83,7 +83,7 @@ const Sidebar = () => {
         <hr className='br-Ashorizontal2 w-100' />
           <div className="side-bottom">
         <div className="br-Aslogout">
-          <Link to="/login" className='br-Aslink13'> log out  </Link>
+          <Link to="/focalapp/login" className='br-Aslink13'> log out  </Link>
           {/* <a className='br-Aslink13'> log out  </a> */}
         </div>
         <div className="br-AsTerms">

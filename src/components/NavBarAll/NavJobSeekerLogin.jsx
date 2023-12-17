@@ -20,11 +20,11 @@ const NavJobSeekerLogin = () => {
         <DropDown
             name="Home"
             option1="What is focal App"
-            to1="/"
+            to1="/focalapp/"
             option2="Who We are?"
-            to2="/"
+            to2="/focalapp/"
             option3="Lat's Talk"
-            to3="/"
+            to3="/focalapp/"
           />
           <DropDown
             name="Jobs"
@@ -48,7 +48,7 @@ const NavJobSeekerLogin = () => {
           <DropDown name="Ads" />
           <NavLink className="RA-HER" >Hir Us</NavLink>
         </Nav>
-        <ButtonNotifcation icon={icon} pofile={"/jopseekerprofile/information"}/>
+        <ButtonNotifcation icon={icon} pofile={"/focalapp/jopseekerprofile"}/>
         <ButtonLanguge />
       </Navbar.Collapse>
     </Navbar>

@@ -20,7 +20,7 @@ export default function PageJobLogin() {
 
         <div className='HD_boxTwo'>
                 <p className=' account '>No account? </p>
-                <Link to="/register" className='Create'>Create New One </Link>
+                <Link to="/focalapp/register" className='Create'>Create New One </Link>
             </div>
     </div>
     </>

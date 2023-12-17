@@ -18,12 +18,12 @@ export const routes = [
         element: <Home />,
       },
       {
-        path: "login",
+        path: "/focalapp/login",
         element: <PageJobLogin />,
         
       },
       {
-        path: "register",
+        path: "/focalapp/register",
         element: <Register />,
         
       },

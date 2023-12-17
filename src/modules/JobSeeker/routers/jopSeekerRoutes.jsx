@@ -13,25 +13,25 @@ export const jopSeekerRoutes = [
     element: <MainProfile1 />,
     children: [
       {
-      path: "jopseekerprofile/information",
+      path: "information",
       element: <InformationForm />,
     },
     {
-      path: "jopseekerprofile/resum",
+      path: "resum",
       element: <AllComponets />,
       
     },
     {
-      path: "jopseekerprofile/blog",
+      path: "blog",
       element: <Boos />,
       children:[
         
             {
-                path: "jopseekerprofile/blog",
+                path: "",
                 element: <Blog1 />,
               },  
             {
-                path: "jopseekerprofile/blog/myblog",
+                path: "myblog",
                 element: <Blog2 />,
               },  
         

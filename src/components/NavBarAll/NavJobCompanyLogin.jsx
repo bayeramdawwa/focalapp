@@ -18,13 +18,13 @@ const NavJobCompanyLogin = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="rn-nav">
         <DropDown
-            name="Home"
-            option1="What is focal App"
-            to1="/"
-            option2="Who We are?"
-            to2="/"
-            option3="Lat's Talk"
-            to3="/"
+          name="Home"
+          option1="What is focal App"
+          to1="/focalapp/"
+          option2="Who We are?"
+          to2="/focalapp/"
+          option3="Lat's Talk"
+          to3="/focalapp/"
           />
           <DropDown
             name="Jobs"
