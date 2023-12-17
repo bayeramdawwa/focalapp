@@ -17,7 +17,7 @@ const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router}  basename="/focalapp"/>
+    <RouterProvider router={router}  basename="/focalapp/"/>
   </React.StrictMode>
 );
 

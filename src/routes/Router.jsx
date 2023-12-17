@@ -8,7 +8,7 @@ import App from "./../App";
 
 export const routes = [
   {
-    path: "/focalapp",
+    path: "/focalapp/",
     element: <App />,
     children: [
       ...businessroutes,
