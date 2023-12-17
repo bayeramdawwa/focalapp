@@ -9,29 +9,29 @@ import Login from "../pages/Login/Login";
 
 export const jopSeekerRoutes = [
   {
-    path: "/jopseekerprofile",
+    path: "jopseekerprofile",
     element: <MainProfile1 />,
     children: [
       {
-      path: "/jopseekerprofile/information",
+      path: "jopseekerprofile/information",
       element: <InformationForm />,
     },
     {
-      path: "/jopseekerprofile/resum",
+      path: "jopseekerprofile/resum",
       element: <AllComponets />,
       
     },
     {
-      path: "/jopseekerprofile/blog",
+      path: "jopseekerprofile/blog",
       element: <Boos />,
       children:[
         
             {
-                path: "/jopseekerprofile/blog",
+                path: "jopseekerprofile/blog",
                 element: <Blog1 />,
               },  
             {
-                path: "/jopseekerprofile/blog/myblog",
+                path: "jopseekerprofile/blog/myblog",
                 element: <Blog2 />,
               },  
         
@@ -42,7 +42,7 @@ export const jopSeekerRoutes = [
      ],
   },
   {
-    path :"/jopseekerlogin",
+    path :"jopseekerlogin",
     element: <Login />,
   }
 ];

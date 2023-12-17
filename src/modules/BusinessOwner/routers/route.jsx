@@ -12,20 +12,20 @@ import ManageJob from '../pages/ManageJob'
 
 export const businessroutes = [
   {
-    path: "/businessOwnerProfile",
+    path: "businessownerprofile",
     element: <MyPage />,
     children: [
       {
-      path: "/businessOwnerProfile/posts",
+      path: "businessownerprofile/posts",
       element: <Posts />,
     },
     {
-      path: "/businessOwnerProfile/blogs",
+      path: "businessownerprofile/blogs",
       element: <Blogs />,
       
     },
     {
-      path: "/businessOwnerProfile/information",
+      path: "businessownerprofile/information",
       element: <Information/>,
       
     },
@@ -34,27 +34,27 @@ export const businessroutes = [
   },
 
   {
-    path: "/businesslogin",
+    path: "businesslogin",
       element: < StepperLogin/>, 
   },
   {
-    path: "/JobMain",
+    path: "jobmain",
     element: <JobMain/>, 
   },
   {
-    path: "/AddJob",
+    path: "addjob",
     element: <AddJob/>, 
   },
   {
-    path: "/ConfirmPayment",
+    path: "confirmpayment",
     element: <ConfirmPayment/>, 
   },
   {
-    path: "/WithdrawalMoney",
+    path: "withdrawalmoney",
     element: <WithdrawalMoney/>, 
   },
   {
-    path: "/ManageJob",
+    path: "managejob",
     element: <ManageJob/>, 
   }
 ];
