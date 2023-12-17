@@ -14,7 +14,7 @@ export const routes = [
       ...businessroutes,
       ...jopSeekerRoutes,
       {
-        path: "",
+        path: "/focalapp/",
         element: <Home />,
       },
       {
