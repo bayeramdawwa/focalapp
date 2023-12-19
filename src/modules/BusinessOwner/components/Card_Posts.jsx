@@ -2,11 +2,11 @@ import Button_general from "./Button_general"
 const Card_Posts = (props) => {
   return (
 
-    <div style={{paddingBottom:"70px"}} className="col-lg-4 col-md-6  col-12 pt-2">
+    <div style={{paddingBottom:"70px"}}  className="col-lg-4 col-md-6  col-12 pt-2 OS_Edit_Flex">
       {
         props.img_1 ?
           <>
-            <div id="OS-card-Posts" className="card">
+            <div  id="OS-card-Posts" className="card">
               <div className="card-body">
                 <h2 className="OS-Card-blogs-title">{props.title}</h2>
                 <div className="d-flex flex-wrap justify-content-between">
@@ -37,8 +37,7 @@ const Card_Posts = (props) => {
          :
           
           <>
-            <div style={{minHeight:"394px",
-                   maxHeight:"max-content"}} id="OS-card-Posts" className="card">
+            <div style={{paddingBottom:"32px"}} id="OS-card-Posts" className="card">
               <div className="card-body">
                 <h2 className="OS-Card-blogs-title">{props.title}</h2>
                 <div className="d-flex flex-wrap justify-content-between">

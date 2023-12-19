@@ -1,0 +1,51 @@
+
+.BT_SliderContainer {
+    max-width: 100%;
+    padding: 3rem 4rem 3rem 4rem;
+}
+
+
+
+.BT_SliderImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.BT_SliderImage {
+    max-width: 5.75rem;
+    height: 5.75rem;
+    background: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BT_CompanyName { 
+    color: var(--focal-x-font-color, #282828);
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.slick-next {
+    background: url('./../../Assets/nexticon.svg') center center no-repeat!important;
+    &::before {
+      display: none;
+    }
+  }
+  
+  .slick-prev {
+    background: url('./../../Assets/previousicon.svg') center center no-repeat!important;
+    &::before {
+      display: none;
+    }
+  }

@@ -1,0 +1,346 @@
+.AS-Hero{ 
+    max-width: 100vw;
+    /* height: 100vh; */
+    background-image:url("./../../components/Blog/img/back.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerA{
+    padding-top: 8rem;
+  
+}
+
+.AS-Hero .AS-Title{
+    width: 60vw;
+    height: 4.4375rem;
+    margin: 0 auto;
+    /* padding-top: 7rem  */
+}
+
+.AS_SearchBarContainer{
+  text-align: center;
+  width: 400px;
+}
+
+
+
+.AS-input-container{
+width: 37.5rem;
+height: 4.0625rem;
+padding: 2.1875rem 0rem 0.25rem 0rem;
+gap: 0.125rem;
+flex-shrink: 0;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid grey;
+}
+@media screen and (max-width: 800px) {
+  .AS-input-container{
+    width: 350px;
+  }
+}
+.AS-input-container input{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  border: none;
+  background-color: inherit;
+  width: 100%;
+  outline: none;
+}
+
+
+
+
+
+.AS-Hero .AS-Title h1{  
+    color: var(#000);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+
+}
+.AS-Hero .AS-Title p{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.AS_CompanySideInfo {
+    max-width: 15rem;
+    height: auto;
+    text-align: center;
+    margin-left: 9.75rem;
+    /* border: 1px solid black; */
+}
+
+/* company info card picture container */
+.AS_CompanyPictureInfoCard {
+    position: relative;
+    padding: 0.5rem 2.62rem;
+    text-align: center;
+
+}
+.AS-Hero .container .AS-list{
+    width: 25rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+.AS-Hero .container .AS-list li{
+    color: var(--focal-x-disable, #938C8C);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: 0.3s all;
+}
+.AS-Hero .container .AS-list li:hover{
+  color: #FF8500;
+  font-weight: bold;
+}
+.AS-Hero .container .AS-list li:active{
+  font-weight: bold;
+  border-bottom: 2px solid #ff8500;
+
+}
+.AS-cards{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.AS-larg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.AS-box{
+  width: 20.125rem !important;
+  height: 25.725rem;
+  border-radius: 0.625rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+.AS-box .AS-first-image{
+  width: 19.875rem;
+  height: 11.75rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+}
+.AS-box .AS-inside-p{
+  width: 19.875rem;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+
+}
+
+
+.AS-box .AS-vector{
+  align-self: flex-end;
+  margin-right: 1.12rem;
+  width: 0.875rem;
+  height: 1.25025rem;
+  margin-top: -2rem;
+}
+.AS-small-div{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+}
+.AS-box .AS-small-img{
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 2.25rem;
+}
+.AS-box .AS-second-p{
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-left: -1.5rem;
+}
+.AS-second-p{
+  margin-left: -3.5rem;
+}
+
+.second{
+  margin-top: 1rem;
+}
+
+.AS-box .AS-date{
+  color: #938C8C;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.AS-smallest-div{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.AS-last-p{
+  color: var(--focal-x-disable, #938C8C);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.75rem;
+  text-decoration-line: underline;
+  align-self: flex-start;
+  margin-left: 1.5rem;
+}
+
+.AS-smallest-div{
+  margin-left: -1rem;
+}
+.AS-Paragraph-One{
+    color: var(--focal-x-font-color, #282828);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.AS-Paragraph-Two{
+    color: var(--focal-x-disable, #938C8C);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.big-big{
+  width: 46.25rem;
+  height: 26.125rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem ;
+  padding-bottom: 1rem;
+  background-color: white;
+  flex-wrap: wrap;
+  height: max-content;
+  text-align: left;
+
+}
+
+.AS-m-image{
+  width: 19.875rem;
+  height: 22.875rem;
+  border-radius: 0.5rem;
+}
+.big-big .second{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.AS-small-img{
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 2.25rem;
+  margin-top: 0.5rem;
+}
+
+.second-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.second .AS-small-img{
+margin-top: -0.5rem;
+}
+
+.AS-list li:first-child{
+  position: relative;
+
+}
+.AS-list li{
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.AS-list li:hover{
+ color: red;
+ font-weight: bold;
+ border-bottom: 1ps solid red;
+}
+.AS-list li:first-child::after{
+  content: '';
+  position: absolute;
+  width: 3.3rem;
+  height: 0.125rem;
+  background-color: #ff8500;
+  bottom: -0.1rem;
+  left: 0;
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+.second-container .par2{
+  width: 21.25rem;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;}
+
+  .second-container .par3{
+    width: 21.25rem;
+    font-faASly: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  .icon{
+    width: 0.875rem;
+    height: 1.25025rem;
+  }
+  .second-container .AS-last-p{
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 500;
+line-height: 0.75rem; /* 120% */
+text-decoration-line: underline;
+  }

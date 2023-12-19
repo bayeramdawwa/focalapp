@@ -3,7 +3,7 @@ import './ManageJob.css'
 import { Data } from '../components/Data_Cards'
 import { useState } from 'react'
 import Footer from '../../../../src/components/Footer/Footer'
-import AllNav from '../../../../src/components/NavBarAll/NavBar'
+import NavJobCompanyLogin from '../../../../src/components/NavBarAll/NavJobCompanyLogin'
 import { Link } from 'react-router-dom'
 
 
@@ -17,7 +17,7 @@ function ManageJob() {
     }
     return (
         <>
-            <AllNav />
+            <NavJobCompanyLogin />
             <div className='Ah-manage-job'>
                 <div className='Ah-large-screen'>
                     <div className="Ah-title">

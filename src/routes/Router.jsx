@@ -4,7 +4,7 @@ import PageJobLogin  from "../pages/PageJobLogin/PageJobLogin";
 import Register  from "../pages/Register/Register";
 import { jopSeekerRoutes } from "../modules/JobSeeker/routers/jopSeekerRoutes";
 import App from "./../App";
-
+import { Gestroutes } from '../modules/Guest/routers/Gestroutes'
 
 export const routes = [
   {
@@ -13,6 +13,7 @@ export const routes = [
     children: [
       ...businessroutes,
       ...jopSeekerRoutes,
+      ...Gestroutes,
       {
         path: "/focalapp/",
         element: <Home />,

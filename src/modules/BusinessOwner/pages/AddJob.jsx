@@ -5,7 +5,7 @@ import InputTow from '.././components/InputTwo'
 import './AddJob.css'
 import axios from 'axios'
 import Footer from '../../../components/Footer/Footer'
-import AllNav from '../../../../src/components/NavBarAll/AllNav'
+import NavJobCompanyLogin from '../../../../src/components/NavBarAll/NavJobCompanyLogin'
 import { Link } from 'react-router-dom'
 
 function AddJob() {
@@ -40,18 +40,18 @@ function AddJob() {
             //'Authorization': `Bearer ${token}`
         }
 
-        axios.post("http://127.0.0.1:8000/api/jobs", data, headers)
+    /*   axios.post("http://127.0.0.1:8000/api/jobs", data, headers)
         //console.log(InputValues1);
         //console.log(InputValues2);
         //console.log(InputValues3);
         setInputValues1({});
         setInputValues2({});
-        setInputValues3({});
+        setInputValues3({});*/
     }
 
     return (
         <>
-          <AllNav/>
+          <NavJobCompanyLogin/>
             <div className='Ah-add-jobs'>
                 <div className="Ah-title-page text-center mt-2">
                     <h1>Add Job</h1>
@@ -73,7 +73,7 @@ function AddJob() {
                     InputValues3={InputValues3}
                 />
                 <div className='posted'>
-                    <Link to='/JobMain' className='posted-button mb-5' onClick={FormValue}>Posted</Link>
+                    <Link to='/focalapp/JobMain' className='posted-button mb-5' onClick={FormValue}>Posted</Link>
                 </div>
             </div>
             <footer>

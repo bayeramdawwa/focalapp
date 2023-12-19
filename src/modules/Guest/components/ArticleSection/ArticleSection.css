@@ -1,0 +1,45 @@
+.BT_ArticlContainer {
+    max-width: 100%;
+    border-radius: 0.625rem;
+    background: var(--clr-white);
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+    margin-right: 2rem; 
+    box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+}
+
+.BT_ArticlImageContainer {
+    max-width: 100%;
+    min-height: 20rem; 
+    border-radius: 0.5rem;
+    background: url('./../../Assets/Article-Picture.png') ;
+    background-repeat: no-repeat; ;
+    background-size: cover;
+}
+
+
+.BT_ArticleTitle {
+    max-width: 80%;
+    height: auto;
+    color: var(--focal-x-font-color, --clr-secondary-black);
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: 1.12rem;
+    margin-bottom: 0.38rem;
+}
+
+.BT_ArticleTextContent {
+    max-width: 100%;
+    height: auto;
+    color: var(--focal-x-disable, #938C8C);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+

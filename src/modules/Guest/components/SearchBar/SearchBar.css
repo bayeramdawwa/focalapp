@@ -1,0 +1,76 @@
+.BT_SearchBarContainer {
+    position: relative;
+    display: flex;
+    width: 37.5rem;
+    height: 4.0625rem;
+    padding: 2.1875rem 0rem 0.25rem 0rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.125rem;
+   
+}
+
+.BT_SearchBarInput {
+    width: 100%;
+    border: none;
+    padding-right: 4.5rem;
+    height: 4.0625rem;
+    border-bottom: 1px solid var(--clr-black);
+    align-self: center;
+    background: none;
+}
+.BT_SearchBarInput:focus{
+   outline: none;
+}
+.BT_SearchBarDivIcons {
+    display: flex;
+    position: absolute;
+    right: 0.56rem;
+}
+
+.BT_SearchBarIcon1 {
+    width: 1.12744rem;
+    height: 1.125rem;
+    margin-right: 1.12rem;
+    flex-shrink: 0;
+    fill: var(--focal-x-disable, #938C8C);
+}
+
+.BT_SearchBarIcon2 {
+    width: 1.125rem;
+    height: 1.12531rem;
+    flex-shrink: 0;
+    fill: var(--focal-x-disable, #938C8C);
+}
+@media only screen and (max-width: 360px) {
+
+    /* these classes are in SearchBar.css  */
+  
+    .BT_SearchBarInput {
+      max-width: 75%;
+    }
+  
+    .BT_SearchBarDivIcons {
+      display: flex;
+      position: absolute;
+      right: 4.5rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    /* these classes are in SearchBar.css  */
+  
+    .BT_SearchBarInput {
+      max-width: 70%;
+    }
+  
+    .BT_SearchBarDivIcons {
+      display: flex;
+      position: absolute;
+      right: 5.5rem;
+    }
+  
+  }

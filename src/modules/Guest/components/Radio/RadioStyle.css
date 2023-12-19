@@ -1,0 +1,80 @@
+.hu14{
+    width: 23.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.12rem;
+}
+.hu14 .hu15 {
+    text-align: left;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.hu17{
+    display: flex;
+}
+.hu17 .hu19{
+    appearance: none;
+    cursor: pointer;
+
+}
+.hu17 .hu20 {
+    position: relative;
+    left: 1.25rem;
+    margin-right: 2.94rem ;
+    cursor: pointer;
+}
+.hu17 .hu20::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid var(--clr-disable);
+    position: absolute;
+    left: -1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+}
+@media (max-width:991px) {
+    .hu17 {
+        flex-wrap: wrap;
+    }
+    .hu18 {
+        margin-bottom: 5px;
+    }
+    .hu17 .hu20 {
+        margin-right: 25px;
+    }
+}
+.hu17 .hu19:checked + .hu20::before {
+    content: '';
+    border-color: var(--clr-main);
+}
+
+.hu17 .hu20::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hu17 .hu19:checked + .hu20::after {
+    content: '';
+    background-color: var(--clr-main);
+}
+/* another way to give the label color */
+
+/* .hu17 .hu19:checked + .hu20 {
+    color: var(--clr-main);
+} */
+
+.hu17 .active {
+   color: var(--clr-main);
+   border-color: var(--clr-main);
+} 

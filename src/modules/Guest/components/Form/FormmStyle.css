@@ -1,0 +1,56 @@
+.hu1 { 
+    width: 23.75rem;
+    height: 4.0625rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.12rem;
+}
+@media (max-width:991px) {
+    .hu1 {
+        width: 90% ;
+    }
+}
+@media (max-width:638px) {
+    .hu1{
+        width: 100%;
+    }
+}
+.hu1 .hu2 {
+    text-align: left;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.hu1 .hu3{
+    display: flex;
+}
+.hu1 .hu3 .hu4{
+    border: 0.0625rem solid transparent;
+    border-color: transparent transparent  var(--clr-black);
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    appearance: none;
+    position: absolute;
+    bottom: 0.25rem;
+    z-index: 3;
+    cursor: pointer;
+    color: var(--clr-disable);
+    text-align: start;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+}
+
+.hu1 .hu3 .hu4 .hu13 {
+    
+}
+.hu1 .hu3 .hu5{
+    position: absolute;
+    bottom: 0.76rem;
+    right: 5px;
+    
+}

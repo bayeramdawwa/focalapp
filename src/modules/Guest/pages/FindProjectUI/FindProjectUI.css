@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+}
+
+.BT_FindUIContainer {
+  max-width: 100%;
+  /* max-height: 100vh; */
+  padding: 2rem 6rem 0rem 5.5rem;
+  background: url('./../../Assets/FindUI-bg.png') lightgrey 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.BT_FindUITiltle {
+  color: var(--clr-black);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1.12rem;
+  line-height: normal;
+  text-align: center;
+}
+
+.BT_FindUIText {
+  color: var(--clr-black);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.BT_FindUICreatAccountButton {
+  display: inline-flex;
+  padding: 0.25rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  background: var(--focal-x-font-color, var(--clr-secondary-black));
+  color: var(--focal-x-background, var(--clr-white));
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.019rem;
+  margin-top: 1.12rem;
+  margin-bottom: 0.2rem;
+}
+
+.BT_FindUITopSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.BT_FindUITabs {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.06rem;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.BT_FindUITabs>li {
+  color: var(--focal-x-disable, #938C8C);
+  text-decoration: none;
+}
+
+.BT_FindUITabs>li>a:active {
+  color: var(--clr-black);
+}
+
+.BT_FindUITabs>li:hover {
+  color: var(--clr-black);
+}
+
+
+.BT_FindUICardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BT_Active {
+  text-decoration: underline solid #FF8500;
+  text-underline-offset: 40%;
+}
+
+.BT_inActive {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 420px) {
+
+  .BT_FindUITabs {
+    font-size: 0.9rem;
+    gap: 3.5rem;
+  }
+
+  .BT_FindUIContainer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+
+}

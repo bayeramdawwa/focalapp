@@ -1,0 +1,92 @@
+
+/* Start company */
+.MI-Company{
+    justify-content: flex-end;
+    padding-bottom: 0;
+}
+@media screen and (min-width:766px) and (max-width:991px) {
+    .MI-Company{
+        justify-content: center;
+    }
+    
+}
+.MI-SideBar{
+    padding-top: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MI-SideBar .MI-Sideparagraph{
+    color: var(--focal-x-disable, #938C8C);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.MI-SideBar .MI-Button{
+    flex-direction: column;
+    gap:1rem;
+}
+.MI-SideBar .MI-Button .MI-ButtonFollow{
+    width: 11rem;
+    padding: 4px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+    background: var(--focal-x-font-color, #282828);
+}
+.MI-SideBar .MI-Button .MI-ButtonAdd{
+    width: 11rem;
+    padding: 4px;
+    background-color:#f3f3f3;
+    color: #282828;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid var(--focal-x-font-color, #282828);
+}
+.MI-hr{
+    width: 15rem;
+    color: #938C8C;
+}
+.MI-SideBar .MI-LinkBar{
+    flex-direction: column;
+    gap:1.4rem;
+}
+.MI-SideBar .MI-LinkBar .MI-Linkblog{
+    position: relative;
+    color: var(--focal-x-disable, #938C8C);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.MI-Linkblog::after{
+    content: "";
+    position: absolute;
+    background-color: #ff8500;
+    height: 3px;
+    width: 0;
+    left: 44%;
+    bottom: -10px;
+}
+.MI-Linkblog:active:after{
+    width: 50px;
+    color: #282828;
+}
+.MI-Linkblog > a :active{
+    color: #282828;
+}
+.MI-SideBar .MI-Tapline{
+    border: 1px solid #282828;
+    border-radius: 50%;
+}
+.MI-SideBar .MI-Check{
+    margin-top: 70px;
+    margin-left: -20px;
+}
+/* End Company */

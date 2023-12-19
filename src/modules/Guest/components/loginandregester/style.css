@@ -1,0 +1,352 @@
+
+.form-container{
+   width: 38.625rem;
+   height: 21.25rem;
+   flex-shrink: 0;
+   border-radius: 0.625rem;
+   background: var(--clr-white);
+   box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+   padding:3rem;
+
+    
+} 
+.input1{
+    width: 100% !important;
+}
+.from-control{
+    width: 100% !important;
+    border: none !important;
+    border-bottom:1px solid black !important;
+    
+}
+.p-Areej1{
+   width:12rem !important;
+   height: 1.5rem;
+   font-family: var(--font-family);
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.5rem;
+   text-align: center;
+   transform: translateX(-2.3rem);
+}
+.Google{
+   width: 1.81rem;
+   height: 1.81rem;
+   flex-shrink: 0;
+   transform: translateY(-0.1rem);
+   
+}
+.p-Areej{
+    
+    width: 15.125rem !important;
+    height: 1.75rem;
+    flex-shrink: 0;
+    color: var(--clr-white);
+    text-align: center;
+    /* focal X/Button : Montserrat 20 px Bold */
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 140% */
+    transform: translateX(-1.8rem);
+}
+.p-Areejmustafa{
+    
+    width: 6.0625rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    color: var(--clr-white);
+    text-align: center;
+    /* focal X/Button : Montserrat 20 px Bold */
+    font-family:var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 140% */
+}
+.btn-arejmustafa {
+    width: 15rem;
+   height: 3rem;
+   flex-shrink: 0;
+   background: var(--clr-secondary-black);
+   border-radius: 0.25rem;
+  padding:0.62rem  1.44rem ;
+  align-items: center;
+
+}
+.btn-AM {
+   width: 15rem;
+   height: 3rem;
+   flex-shrink: 0;
+   border-radius: 0.25rem;
+   border: 2px solid var( --clr-black);
+   padding-left :3.53rem !important;;
+   padding-right:1.77rem!important;;
+   padding-top:0.75rem;
+   padding-bottom:0.75rem;
+}
+.btn-areej{
+width: 15rem !important;
+height: 3rem !important;
+flex-shrink: 0 !important;
+border-radius: 0.3125rem !important;
+background: var(--clr-secondary-black);
+padding-left :4.44rem !important;;
+padding-right:4.5rem!important;;
+padding-top:0.75rem;
+padding-bottom:0.75rem;
+margin:0 auto;
+display: block;
+
+}
+
+.from-control:focus{
+    outline: none !important ;
+}
+.error-areej{
+    color: red !important;;
+    font-size:12px!important;
+    margin-top: 0 !important;
+}
+.text-areejj{
+color: #000;
+font-family:var(--font-family);
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text-areejj1{
+color: var(--clr-secondary-black);
+text-align: center;
+/* focal X/Secondary text : Montserrat 16 px Regular */
+font-family: var(--font-family);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; }
+
+.Areej-button{
+        width: auto 12.815rem;
+        height: auto 4rem;
+        display: inline-flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 0.5rem;
+       border: 2px solid var( --clr-secondary-black);
+       background: rgba(217, 217, 217, 0.30);
+       backdrop-filter: blur(5px);
+       margin-top:4rem;
+       
+     
+
+}
+.Areej-text{
+    color: var( --clr-secondary-black);
+    /* focal X/Primary text : Montserrat 20 px Regular */
+   font-family:var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 140% */
+    width: auto 8.812rem;
+    height: auto 1.75rem;
+    text-align: center;
+    padding-right:1.12rem;
+    padding-top: 1.12rem;
+    padding-bottom: 1.12rem;
+    padding-left:1.12rem;
+
+}
+.contiue-areej{
+    margin: 0 auto;
+    display: block;
+}
+
+.icon-areej{
+    width: 0.76946rem;
+    height: 0.75rem;
+    padding-right: 1.12rem;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .form-container{
+        width:45% !important;
+    }
+
+    
+}
+@media screen and (max-width:1000px) {
+    .form-container{
+        width:65% !important;
+    }}
+
+
+@media screen and (max-width:781px) {
+    .form-container{
+        width:70% !important;
+        padding:1.5rem !important;
+    }}
+    @media screen and (max-width:518px) {
+        .form-container{
+            width:80% !important;
+            padding:1.5rem !important;
+    }}
+    @media screen and (max-width:452px) {
+        .form-container{
+            width:90% !important;
+            padding:1.5rem !important;
+    }
+
+    .btn-arejmustafa {
+        width: 10rem;
+       height: 3rem;
+       flex-shrink: 0;
+       background: var(--clr-secondary-black);
+       border-radius: 0.25rem;
+      padding:0.62rem  1.44rem ;
+      align-items: center;
+    
+    }
+    .btn-AM {
+       width: 10rem;
+       height: 3rem;
+       flex-shrink: 0;
+       border-radius: 0.25rem;
+       border: 2px solid var( --clr-black);
+       padding-left :1.53rem !important;;
+       padding-right:1.77rem!important;;
+       padding-top:0.75rem;
+       padding-bottom:0.75rem;
+    }
+    .btn-areej{
+    width: 10rem !important;
+    height: 3rem !important;
+    flex-shrink: 0 !important;
+    border-radius: 0.3125rem !important;
+    background: var(--clr-secondary-black);
+    padding-left :2.44rem !important;;
+    padding-right:2.5rem!important;;
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
+
+
+
+}
+.p-Areej1{
+    width:12rem !important;
+    height: 1.5rem;
+    font-family:var(--font-family);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;
+    transform: translateX(-2.5rem);
+ }
+ .p-Areej{
+    
+    width: 10.125rem !important;
+    height: 1.75rem;
+    flex-shrink: 0;
+    color: var(--clr-white);
+    text-align: center;
+    /* focal X/Button : Montserrat 20 px Bold */
+    font-family: var(--font-family);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 140% */
+    transform: translateX(-1.8rem);
+}
+.Google{
+    width: 1.51rem;
+    height: 1.51rem;
+    flex-shrink: 0;
+    transform: translateY(-0.1rem);
+    
+ }}
+    @media screen and (max-width:397px) {
+        .form-container{
+            width:100% !important;
+            padding:1rem !important;
+    }
+
+    .btn-arejmustafa {
+        width: 10rem;
+       height: 3rem;
+       flex-shrink: 0;
+       background: var(--clr-secondary-black);
+       border-radius: 0.25rem;
+      padding:0.62rem  1.44rem ;
+      align-items: center;
+    
+    }
+    .btn-AM {
+       width: 10rem;
+       height: 3rem;
+       flex-shrink: 0;
+       border-radius: 0.25rem;
+       border: 2px solid var( --clr-black);
+       padding-left :1.53rem !important;;
+       padding-right:1.77rem!important;;
+       padding-top:0.75rem;
+       padding-bottom:0.75rem;
+    }
+    .btn-areej{
+    width: 10rem !important;
+    height: 3rem !important;
+    flex-shrink: 0 !important;
+    border-radius: 0.3125rem !important;
+    background: var(--clr-secondary-black);
+    padding-left :2.44rem !important;;
+    padding-right:2.5rem!important;;
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
+
+
+
+}
+.p-Areej1{
+    width:12rem !important;
+    height: 1.5rem;
+    font-family:var(--font-family);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;
+    transform: translateX(-2.5rem);
+ }
+ .p-Areej{
+    
+    width: 10.125rem !important;
+    height: 1.75rem;
+    flex-shrink: 0;
+    color: var(--clr-white);
+    text-align: center;
+    /* focal X/Button : Montserrat 20 px Bold */
+    font-family: var(--font-family);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 140% */
+    transform: translateX(-1.8rem);
+}
+.Google{
+    width: 1.51rem;
+    height: 1.51rem;
+    flex-shrink: 0;
+    transform: translateY(-0.1rem);
+    
+ }
+}
+
+
+
+
+

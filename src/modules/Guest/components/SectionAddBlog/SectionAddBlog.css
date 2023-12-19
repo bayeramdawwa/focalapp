@@ -1,0 +1,46 @@
+.BA-SectionAddBlog {
+    width: 100%;
+    height: 100vh;
+    background: url(../../Assets/bg.png);
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+
+.BA-GropBtnSectionAddBlog{
+    margin-top: 2.75rem;
+}
+
+.BA-BtnOneSectionAddBlog {
+    width: 15rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 2px solid var(--focal-x-font-color, #282828);
+    color: var(--focal-x-font-color, #282828);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    outline: none;
+}
+
+.BA-BtnTwoSectionAddBlog {
+    width: 15rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: var(--focal-x-font-color, #282828);
+    color: var(--focal-x-background, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    outline: none;
+}

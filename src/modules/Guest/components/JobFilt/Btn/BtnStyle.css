@@ -1,0 +1,34 @@
+.hu22{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0 0;
+}
+.hu22 span{
+color: #EA4335;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+.hu22 button{
+    padding: 0.62rem 4.5rem;
+    border-radius: 0.31rem;
+    color: var(--clr-white);
+    background-color: var(--clr-black);
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:638px) {
+    .hu22 {
+        padding: 0 0 2rem;
+    }
+    .hu22 button  {
+        padding: 0.62rem 2rem
+    }
+}

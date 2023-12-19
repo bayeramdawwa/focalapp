@@ -21,7 +21,7 @@ const Information = (props) => {
     const [cities, setCities] = useState([]);
 
     ///////////////////Axios GET BusinsessOwner Api
-    useEffect(() => {
+   /* useEffect(() => {
         axios.request({
             headers: {
                 Authorization: `Bearer ${token}`
@@ -30,10 +30,10 @@ const Information = (props) => {
         }).then(response => {
             setBusinessOwners(response.data.data)
         });
-    }, [])
+    }, [])*/
 
     /////////////Axios GET UserInfo Api
-    useEffect(() => {
+   /* useEffect(() => {
         axios.request({
             headers: {
                 Authorization: `Bearer ${token}`
@@ -42,10 +42,10 @@ const Information = (props) => {
         }).then(response => {
             setUserInfo(response.data.data)
         });
-    }, [])
+    }, [])*/
 
     ////////////////////Axios Get cities
-    useEffect(() => {
+  /*  useEffect(() => {
         axios.request({
             headers: {
                 Authorization: `Bearer ${token}`
@@ -55,11 +55,11 @@ const Information = (props) => {
             setCities(response.data.data)
         });
     }, [])
-
+*/
     /*******************PUT (BusinessOwner & userInformation ) Requests***********************/
-    function handlePutBusinessOwner() {
+   function handlePutBusinessOwner() {
         // Put (BusinessOwner) request    
-        const paramsBusinessOwner = {
+     /*   const paramsBusinessOwner = {
             company_name: businessOwners.company_name,
             company_field: businessOwners.company_field,
             company_size: businessOwners.company_size,
@@ -100,9 +100,9 @@ const Information = (props) => {
           }else{
               userData.city_id = +userData.city_id
           }  */
-        // const {id, ...dataToSend} = userInfo       
+        // const {id, ...dataToSend} = userInfo     */  
 
-        axios.post(`${url}/user_info/${user_id}`, dataToSend, { headers })
+      /*  axios.post(`${url}/user_info/${user_id}`, dataToSend, { headers })
             .then(res => console.log(res))
         Swal.fire({
             position: "center",
@@ -111,6 +111,7 @@ const Information = (props) => {
             showConfirmButton: false,
             timer: 1500
         });
+        */
     }
 
     return (

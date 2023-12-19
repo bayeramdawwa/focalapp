@@ -2,7 +2,8 @@ import React, { useRef, useState } from "react";
 import RecipientInformation from "../components/RecipientInformation.jsx";
 import './WithdrawalMoney.css'
 import Footer from '../../../../src/components/Footer/Footer'
-import AllNav from '../../../../src/components/NavBarAll/NavBar'
+import NavJobCompanyLogin from '../../../../src/components/NavBarAll/NavJobCompanyLogin'
+import { Link } from "react-router-dom";
 
 
 const WithdrawalMoney = () => {
@@ -25,7 +26,7 @@ const WithdrawalMoney = () => {
 
   return (
     <>
-    <AllNav/>
+    <NavJobCompanyLogin/>
       <div className="ms-wm-main">
         <p className="ms-wm-title">Withdrawal Money</p>
         <p className="ms-wm-des">
@@ -42,8 +43,10 @@ const WithdrawalMoney = () => {
         />
         <div className="ms-wm-buttuns">
           <div className="ms-wm-cancel-btn">Cancel</div>
-          <div
+          <Link
             className="ms-wm-confirm-btn"
+            to="/focalapp/confirmpayment"
+            style={{textDecoration:"none"}}
             onClick={() => {
               let isAllFill = true;
 
@@ -73,7 +76,7 @@ const WithdrawalMoney = () => {
             }}
           >
             Confirm Payment
-          </div>
+          </Link>
         </div>
       </div>
       <footer>

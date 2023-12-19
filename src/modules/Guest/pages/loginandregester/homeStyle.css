@@ -1,0 +1,27 @@
+.page3{
+    background-image: url('./background1.png');
+    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    /* overflow-y: auto !important; */
+    Max-width:100vw !important;
+    height: 100vh;
+    margin-top: 50px;
+ 
+}
+.page2{
+    background-image: url('./background1.png');
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 100vh ;
+
+}
+
+.container-areej{
+     width:75%;
+     margin: 0 auto;
+     padding-top:4rem;
+
+}

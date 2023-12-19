@@ -3,7 +3,7 @@ import JobName from '../components/JobInfo'
 import JobInfo from '../components/JobName'
 import InputEmployee from '../components/InputEmployee';
 import Footer from '../../../../src/components/Footer/Footer'
-import AllNav from '../../../../src/components/NavBarAll/NavBar'
+import NavJobCompanyLogin from '../../../../src/components/NavBarAll/NavJobCompanyLogin'
 
 function JobMain() {
   const employee1 = {
@@ -52,7 +52,7 @@ function JobMain() {
 
   return (
     <>
-      <AllNav />
+      <NavJobCompanyLogin />
       <div className='Ah-main-job'>
         <JobInfo />
         <InputEmployee title={employee1.title} content={employee1.content} />

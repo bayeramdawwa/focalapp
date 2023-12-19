@@ -1,0 +1,133 @@
+.BT_Black_Text {
+    color: var(--clr-black);
+}
+
+.BT_cardContainer {
+    padding: 1.12rem 2rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+    background: var(--clr-white);
+    box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+}
+
+.BT_CardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.12rem;
+}
+
+.BT_CardIcon {
+    display: flex;
+    align-items: center;
+  }
+
+.BT_NumOfViewers {
+    color: var(--focal-x-disable, #938C8C);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17006rem;
+}
+
+.BT_CompanyName {
+    color: var(--clr-black);
+    margin-left: 0.5rem;
+    font-family: Montserrat;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.BT_CompanyImage {
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 2.25rem;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.BT_CardTitle {
+    color:var(--clr-black);
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.BT_Description > p {
+    color: var(--focal-x-disable, #938C8C);
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BT_CardActive {
+    color: var(--focal-x-web-app-development, var(--clr-succsess));
+    font-family: Montserrat;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17006rem;
+}
+.BT_Timeinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.13rem;
+
+}
+.BT_ActiveDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Date Time container */
+.BT_DTdetails { 
+    display: flex;
+    align-items: center;
+     gap: 0.3rem;
+}
+.BT_CardTime{
+    color: var(--focal-x-disable, #938C8C);
+    font-family: var(--font-family);
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17006rem; /* 234.015% */}
+
+.BT_ViewResumeButton {
+    width: 15.0625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    padding: 0.56rem 2.94rem;
+    background: var(--focal-x-font-color, var(--clr-secondary-black));
+    color:  var(--clr-white);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.36506rem;
+}
+.BT_MoreInfoButton{
+    border-radius: 4px;
+    background:  #282828;
+    width:100%;
+    color: white;
+    font-size: 16px;
+font-style: normal;
+font-weight: 700;
+font-family: Montserrat;
+padding: 10px 0;
+
+}

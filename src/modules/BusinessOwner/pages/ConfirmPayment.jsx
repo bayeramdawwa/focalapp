@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import './ConfirmPayment.css'
 import SenderInformation from "../components/SenderInformation";
 import Footer from '../../../../src/components/Footer/Footer'
-import AllNav from '../../../../src/components/NavBarAll/NavBar'
+import NavJobCompanyLogin from '../../../../src/components/NavBarAll/NavJobCompanyLogin'
 
 const ConfirmPayment = () => {
   const [senderInfo, setSenderInfo] = useState({
@@ -24,7 +24,7 @@ const ConfirmPayment = () => {
 
   return (
     <>
-    <AllNav/>
+    <NavJobCompanyLogin/>
       <div className="ms-main">
         <p className="ms-title">Confirm Payment</p>
         <p className="ms-des">

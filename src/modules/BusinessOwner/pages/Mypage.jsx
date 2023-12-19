@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SideBar from '../components/SideBar'
 import './Mypage.css'
 import { Outlet } from 'react-router-dom'
-import AllNav from '../../../components/NavBarAll/AllNav'
+import NavJobCompanyLogin from '../../../components/NavBarAll/NavJobCompanyLogin'
 import Footer from '../../../components/Footer/Footer'
 
 const MyPage = () => {
@@ -15,7 +15,7 @@ const MyPage = () => {
 
     return (
         <>
-            <AllNav />
+            <NavJobCompanyLogin />
             <div id='OS-page' className='container-fluid'>
                 <>
                     {

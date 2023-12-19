@@ -1,0 +1,24 @@
+.BT_CompaniesSliderContainer {
+    max-width: 100%;
+    min-height: 100vh;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 4rem;
+   
+    background: url('./../../Assets/CompanyProfileScreenUI-bg.png'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .BT_CompaniesSliderTitle {
+        text-align: center;
+        /* margin-bottom: 2rem; */
+        color: #000;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 20px;
+    
+    }
+    

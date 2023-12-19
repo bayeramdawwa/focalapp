@@ -28,25 +28,35 @@ const NavJobSeekerLogin = () => {
           />
           <DropDown
             name="Jobs"
-            to1="/focalapp/businessOwnerProfile"
+            to1="/focalapp/jobfilter"
             option1="Search Jobs"
             option2="Matched Jobs"
             option3="Applied Jobs"
           />
           <DropDown
-            name="Freelance"
+            name="Freelance"           
             option1="Search Project"
+            to1="/focalapp/findprojects"
             option2="Search Services"
             option3="Add Project"
           />
            <DropDown
             name="Blog"
             option1="Search Blog"
+            to1='/focalapp/blog'
             option2="Add Blog"
             option3="Saved Blogs"
           />
           <DropDown name="Internship" />
-          <DropDown name="Ads" />
+          <DropDown 
+            name="Ads"
+            option1="team1"
+            to1='/focalapp/jopseekerprofile'
+            option2="team2"
+            to2="/focalapp/businesslogin"
+            option3="team3"
+            to3="/focalapp/companyprofile"
+            />
           <NavLink  className="RA-HER" >Hir Us</NavLink>
         </Nav>
         <ButtonNotifcation icon={icon} pofile={"/focalapp/jopseekerprofile"}/>

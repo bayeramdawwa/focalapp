@@ -1,0 +1,111 @@
+/* Start Tille */
+.MI-Search {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #938C8C;
+  justify-content: start;
+  width: 60% !important;
+}
+.MI_SearchBarInput{
+  border: none;
+  background-color: #f3f3f345;
+  outline: none;
+}
+.MI_SearchBarDivIcons{
+  position: absolute;
+  left:93%;
+}
+.MI-list{
+  list-style: none;
+  color: var(--focal-x-disable, #938C8C);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.MI-list .MI-Linkss{
+  text-decoration: none;
+  color:#938C8C
+}
+.MI-Linkss:hover{
+    border-bottom:3px solid #FF8500 ;
+    color: #282828;
+}
+/* End Title */
+/* Start Top Section */
+.MI-Latest{
+  color: var(--focal-x-disable, #938C8C);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.MI-BigCard{
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--focal-x-background, #FFF);
+    box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+}
+@media screen and (max-width:768px) {
+    .MI-BigCard{
+      flex-direction: column;
+    }
+}
+.MI-Box{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.MI-RightSection{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 240% */;
+    gap: 0.5rem;
+}
+.MI-LeftSection{
+    color: #938C8C;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 240% */
+}
+.MI-BigCard  .MI-TopText{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.MI-BigCard .MI-BigText{
+  color: var(--focal-x-font-color, #282828);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start;
+}
+.MI-Icon{
+  justify-content: space-between;
+}
+.MI-ReadMore{
+  color: #FF8500;
+  text-decoration: none;
+}
+.MI_View{
+  color: var(--focal-x-font-color, #282828);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+/* End Top Section */
