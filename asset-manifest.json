@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/focalapp/static/css/main.0f0cb5c4.css",
-    "main.js": "/focalapp/static/js/main.0275e833.js",
+    "main.css": "/focalapp/static/css/main.ae049e94.css",
+    "main.js": "/focalapp/static/js/main.4de76e08.js",
     "static/media/colors.svg": "/focalapp/static/media/colors.1af97c524c88a73b443664b14c375cdf.svg",
     "static/media/random.svg": "/focalapp/static/media/random.01017d50a72e84f53a08aaa4ee7ad6de.svg",
     "static/media/mobile.svg": "/focalapp/static/media/mobile.96cf8eb68f2cf86e53a9ccd010aee2b4.svg",
@@ -90,11 +90,11 @@
     "static/media/nexticon.svg": "/focalapp/static/media/nexticon.b82e1cc782b7edcc6568.svg",
     "static/media/min.svg": "/focalapp/static/media/min.f561c140911a5e73b693b8e515479bd2.svg",
     "static/media/Ellipse41.svg": "/focalapp/static/media/Ellipse41.b01e8b8daff314f8de2a89a231dcbaa3.svg",
-    "main.0f0cb5c4.css.map": "/focalapp/static/css/main.0f0cb5c4.css.map",
-    "main.0275e833.js.map": "/focalapp/static/js/main.0275e833.js.map"
+    "main.ae049e94.css.map": "/focalapp/static/css/main.ae049e94.css.map",
+    "main.4de76e08.js.map": "/focalapp/static/js/main.4de76e08.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f0cb5c4.css",
-    "static/js/main.0275e833.js"
+    "static/css/main.ae049e94.css",
+    "static/js/main.4de76e08.js"
   ]
 }
